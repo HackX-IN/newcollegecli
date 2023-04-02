@@ -1,0 +1,10 @@
+
+.course1{
+    width: 250px;
+    margin-bottom: 1rem;
+    transition: all 0.5s;
+   
+}
+.course1:hover{
+    transform: translateY(-10);
+}

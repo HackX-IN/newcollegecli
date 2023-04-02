@@ -1,0 +1,9 @@
+
+.grid{
+    cursor: url('https://cutewallpaper.org/cdn-cgi/mirage/879d3f56044898301ccabab4a8a90586cd5663eca603a14193df05b49a03034b/1280/24/cursors-png/free-pngs-icon-free-png-images-100-free-transparent-cutout-images.png'),default;
+}
+
+.dash:hover{
+    transform: translateX(10px);
+    color:violet;
+}

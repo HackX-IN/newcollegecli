@@ -1,0 +1,29 @@
+import { ColorModeScript } from '@chakra-ui/react';
+import React from 'react';
+import * as ReactDOM from 'react-dom/client';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import * as serviceWorker from './serviceWorker';
+import { ChakraProvider } from '@chakra-ui/react';
+import {Provider} from 'react-redux'
+import store from './redux/store';
+
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+
+root.render(
+
+    <Provider store={store}>
+    <ChakraProvider>
+    <ColorModeScript />
+    <App />
+    </ChakraProvider>
+    </Provider>
+    
+
+
+);
+
+serviceWorker.unregister();
+
+reportWebVitals();
