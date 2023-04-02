@@ -19,4 +19,4 @@ const store =configureStore({
 });
 
 export default store;
-export const server='http://localhost:8081/api/v1'
+export const server='https://servernewcollege.onrender.com/api/v1'
