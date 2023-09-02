@@ -19,4 +19,4 @@ const store =configureStore({
 });
 
 export default store;
-export const server='https://ncserver.up.railway.app/api/v1'
+export const server='https://ncserver.onrender.com/api/v1'
